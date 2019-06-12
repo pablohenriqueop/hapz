@@ -1,0 +1,122 @@
+<!DOCtype html>
+<html lang="pt-br">
+    <head>
+        <meta charset="utf=8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title> Hapz - Recarregue agora seu celular </title>
+        <meta name="description" content=" Empresa especializa em recarga de celular e Aplicativos Mobile">
+        <meta name="keywords" content="Recarga de celular, recarga, dados,">
+        <meta name="robots" content="index, follow">
+        <meta name="author" content=" Vinicius Duarte / e-mail-vduartejs@gmail.com ">
+        <!-- Importa Fonte Family (Titillium)  -->
+        <link href="https://fonts.googleapis.com/css?family=Titillium+Web:300,400,700&display=swap" rel="stylesheet"> 
+        <!-- Importa o CSS -->
+        <link rel="stylesheet" type="text/css" media="screen" href="css/mediatypes.css"/> 
+        <link rel="stylesheet" type="text/css" media="screen" href="css/reset.css"/> 
+        <link rel="stylesheet" type="text/css" media="screen" href="css/style.css"/> 
+    </head>
+    <body>
+        <!-- background image -->
+        <div class="background-image"> 
+
+            <!-- Logo --> 
+            <header class="logomarca container">
+                <a href="index.html"><h1 class="vetor"></h1></a>
+                <a href="index.html"><h1 class="logo"> Hapz - Tecnologia na palma da sua mão </h1></a>
+            </header>
+         
+            <!-- Sessão texto-recarregue-agora --> 
+            <section class="destaque-texto container">
+                <div>
+                    <h3>Você está sem saldo</h3>
+                    <h2>Recarregue agora</h2>
+                </div>
+            </section>
+
+            <!-- Sessão contratar R$ --> 
+            <div class="area-box container">
+                <div class="box-esquerda boxbgl box-preco">
+                    <p class="preco">R$15</p>
+                    <p class="bonus">E ganhe R$5 de bônus</p>
+                    <p><a class="contratar" href="#">contratar</a></p>
+                </div>
+                <div class="box-direita boxbgr box-preco">
+                    <p class="preco">R$20</p>
+                    <p class="bonus">E ganhe R$10 de bônus</p>
+                    <p><a class="contratar" href="#">contratar</a></p>
+                </div>
+            </div>
+            <!-- Sessão contratar R$ --> 
+            <div class="tabs"> 
+                <a class="btn-tabs active tablinks" id="link-creditos" href="#" onclick="openCity(event, 'tab-creditos')">créditos</a>
+                <a class="btn-tabs tablinks" href="#" onclick="openCity(event, 'tab-dados')">dados</a>
+                <div class="blur"></div>
+            </div>
+        </div> 
+        <!-- Sessão ASSINE -->
+        <div class="assine">
+            <div class="tabcontent" id="tab-creditos">
+                   <div class="item-tab">
+                        <div class="banner">
+                                <a class="btn-assine btntxtassine">assine</a>
+                                <p class="texto-thumb">HAPZ CRÉDITOS</p>
+                        </div>
+                        <p>SARAIVA 10% </p>
+                        p   
+                   </div>
+                    <div class="item-tab">
+                        <div class="banner">
+                                <a class="btn-assine btntxtassine">assine</a>
+                                <p class="texto-thumb">HAPZ CRÉDITOS</p>
+                        </div>
+                        <p>SARAIVA 10% </p>
+                        p   
+                   </div>
+            </div>
+            <div class="tabcontent" id="tab-dados">
+                    <div class="item-tab">
+                        <div class="banner">
+                                <a class="btn-assine btntxtassine">assine</a>
+                                <p class="texto-thumb">HAPZ CRÉDITOS</p>
+                        </div>
+                        <p>SARAIVA 10% </p>
+                        p   
+                   </div>
+                    <div class="item-tab">
+                        <div class="banner">
+                                <a class="btn-assine btntxtassine">assine</a>
+                                <p class="texto-thumb">HAPZ CRÉDITOS</p>
+                        </div>
+                        <p>SARAIVA 10% </p>
+                        p   
+                   </div>
+            </div>
+        </div>
+    </body>
+
+    <script>
+
+function openCity(evt, idDoElemento) {
+  // Declare all variables
+  var i, tabcontent, tablinks;
+
+  // Get all elements with class="tabcontent" and hide them
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+
+  // Get all elements with class="tablinks" and remove the class "active"
+  tablinks = document.getElementsByClassName("tablinks");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" active", "");
+  }
+
+  // Show the current tab, and add an "active" class to the button that opened the tab
+  document.getElementById(idDoElemento).style.display = "block";
+  evt.currentTarget.className += " active";
+}
+document.getElementById("link-creditos").click();
+    </script>
+</html>

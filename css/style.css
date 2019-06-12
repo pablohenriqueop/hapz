@@ -1,0 +1,287 @@
+/*=== CONTEINER ===*/
+
+.container {
+    width: 100%;
+    float: left;
+}
+/*=== BACKGROUND IMAGE ===*/
+.background-image {
+    width:100%;
+    height: 424px;
+    background: url(../img/background/background-girl.jpg);
+    background-size: cover;
+    position: relative;
+}
+
+
+
+/*=== LOGO ===*/
+
+.vetor {
+    position: absolute;
+    width: 20px;
+    height: 33.2px;
+    left: 27px;
+    top: 29px;
+    margin-right: 328px;
+    background: url(../img/logo/Vector.png) center center/20px no-repeat;
+    font-size: 0;
+}
+
+.logo {
+    position: absolute;
+    width: 81.18px;
+    height: 24.66px;
+    left: 49.52px;
+    margin-right: 244.3px;
+    bottom: 367.34px;
+    top: 32px;
+    background: url(../img/logo/Hapz.png) center center/81.18px no-repeat;
+    font-size: 0;
+}
+/*=== BANNER ===*/
+
+h3 {
+    position: absolute;
+    width: 141px;
+    height: 15px;
+    left: 20px;
+    top: 92px;
+
+    font-style: normal;
+    font-weight: bold;
+    font-size: 0.875em;
+    line-height: 14px;
+
+    /* identical to box height */
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+h2 {
+    position: absolute;
+    width: 220px;
+    height: 75px;
+    left: 21px;
+    top: 107px;
+    font-size: 2.25em;
+    line-height: 37px;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+/*=== BOXS ===*/
+.area-box {
+    text-align: center;
+}
+
+.box-preco {
+    position: absolute;
+    width: 44%;
+    height: 114px;
+    top: 242px;
+    float: left;
+    background: #F2F2F2;
+    box-shadow: 0px 4px 34px rgba(0, 0, 0, 0.25);
+    border-radius: 8px;
+    overflow: hidden;
+}
+.box-direita {
+    right: 4%;
+}
+
+.box-esquerda {
+ left: 4%;
+}
+.preco {
+    width: 100%;
+    height: 55px;
+    left: 21px;
+    top: 242px;
+    font-family: 'Titillium Web',sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 55px;
+    /* identical to box height */
+    text-align: center;
+    text-transform: uppercase;
+    color: #2E7CE6;
+}
+
+.fbold {
+    font-weight: bold;
+}
+
+.bonus {
+    width: 100%;
+    height: 23px;
+    left: 21px;
+    top: 299px;
+    font-size: 10px;
+    line-height: 15px;
+    text-align: center;
+    color: #828282;
+}
+.contratar {
+    width: 100%;
+    background: #F2994A;
+    border-radius: 0px 0px 8px 8px;
+    height: 37px;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    color: #55361A;
+    justify-content: center;
+    text-decoration: none;
+}
+
+.tabs {
+    position: absolute;
+    width: 100%;  
+    float: left;
+    box-sizing: border-box;
+    position: absolute;
+    bottom: 0;
+    border: 1px solid rgba(242, 242, 242, 0.4);
+}
+
+.tabs:hover {
+    border: 1px solid #FFF;
+}
+.btn-tabs {
+    width: 49%;
+    top: 382px;
+    font-size: 14px;
+    line-height: 0px;
+    display: inline-block;
+    text-align: center;
+    text-transform: uppercase;
+    color: #F2F2F2;
+    padding: 22px 0;
+}
+
+/* Style the tab */
+.tab {
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+  }
+
+  /* Style the tab content */
+ .tabcontent {
+    display: none;
+    padding: 25px 0px 0 10px;
+    border-top: none;
+  }
+
+  .tabcontent {
+    animation: fadeEffect 1s; /* Fading effect takes 1 second */
+  }
+  
+  /* Go from zero to full opacity */
+  @keyframes fadeEffect {
+    from {opacity: 0;}
+    to {opacity: 1;}
+  }
+
+.btn-tabs.active {  
+ border-top: 3px solid #F2F2F2;
+ font-weight: bold;
+}
+
+.tabs > .btn-tabs:first-child {
+    border-right: 1px solid rgba(242, 242, 242, 0.4);
+}
+
+
+.assine {
+    background-color: #FFF;
+}
+
+.item-tab {
+    width: 46%;
+    border-radius: 10px;
+    margin-right: 10px;
+    border-radius: 10px;
+    display: inline-block
+}
+
+.banner {
+
+    height: 130px;  
+    position: relative;
+    background-image: url(../img/sectionpromo/saraiva10%.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    margin-right: 10px;
+    border-radius: 10px;
+}
+
+.banner:after {
+    content: '';
+    height: 86.98px;
+    width: 100%;
+    bottom: 0;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.0001) 0%, #000000 100%);
+    z-index: 1;
+    opacity: 0.9;
+    position: absolute;
+    border-radius: 10px;
+}
+
+.btn-assine{
+    position: absolute;
+    top: 543.06px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 10px;
+    color: #FFFFFF;
+    background: #2F80ED;
+    border-radius: 2.02041px;
+    right: 10px;
+    top: 10px;
+    display: inline-block;
+    padding: 4.89px 10.73px 2.99px 10.73px; 
+}
+
+.texto-thumb {
+    font-size: 16px;
+    line-height: 24px;
+    position: absolute;
+    padding: 0 11px;
+    width: 100%;
+    color: white;
+    font-weight: bold;
+    bottom: 12.72px;
+    z-index: 2;
+}
+
+.btntextassine {
+    position: absolute;
+    width: 37.56px;
+    height: 13.81px;
+    left: 122.08px;
+    top: 473.05px;
+
+    /* Footnote */
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 13px;
+
+    color: #FFFFFF;
+}
+
+@media (min-width: 768px) {
+
+}
